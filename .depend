@@ -1,0 +1,15 @@
+lga.cmi : mat.cmx cell.cmx
+cell.cmo :
+cell.cmx :
+gen_rules.cmo :
+gen_rules.cmx :
+lga.cmo : rules.cmx mat.cmx cell.cmx lga.cmi
+lga.cmx : rules.cmx mat.cmx cell.cmx lga.cmi
+main.cmo : renderer.cmx mat.cmx lga.cmi
+main.cmx : renderer.cmx mat.cmx lga.cmx
+mat.cmo :
+mat.cmx :
+renderer.cmo : mat.cmx
+renderer.cmx : mat.cmx
+rules.cmo : cell.cmx
+rules.cmx : cell.cmx
