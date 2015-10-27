@@ -10,6 +10,6 @@ $ make
 $ ./simulate.out
 ```
 
-![arrowmap](/home/aabe/devel/ocaml/lattice-gas-automaton/screenshot1.png)
+![arrowmap](screenshot1.png)
 
-![colormap](/home/aabe/devel/ocaml/lattice-gas-automaton/screenshot2.png)
+![colormap](screenshot2.png)
